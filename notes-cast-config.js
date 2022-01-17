@@ -4,7 +4,7 @@ module.exports = {
   metaFilesLocation: config.metaFilesLocation,
   baseURL: 'https://smidgeo.com/notes/deathmtn',
   rssFilename: 'podcast.xml',
-  podcastImageURL: 'https//smidgeo.com/notes/deathmtn/media/deathmtn-notescast.png',
+  podcastImageURL: 'https://smidgeo.com/notes/deathmtn/media/deathmtn-notescast.png',
   mediaBaseURL: 'https://smidgeo.com/notes/deathmtn/media',
   language: 'en',
   owner: 'deathmtn',
@@ -15,5 +15,7 @@ module.exports = {
   subtitle: 'The audio posts from deathmtn notes.',
   summary: 'Sounds — verbal, musical, and otherwise — from everyday life.',
   author: 'deathmtn',
-  podcastType: 'episodic'
+  podcastType: 'episodic',
+  title: 'Notescast',
+  description: 'The audio posts from smidgeo.com/notes/deathmtn.'
 };
