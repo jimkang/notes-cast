@@ -1,0 +1,13 @@
+{
+  "name": "notes-cast",
+  "version": "1.0.0",
+  "description": "The audio entries from a blog, as a podcast",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Polyform Non-Commercial",
+  "dependencies": {
+  }
+}
