@@ -9,5 +9,6 @@
   "author": "",
   "license": "Polyform Non-Commercial",
   "dependencies": {
+    "static-web-cast": "^1.0.1"
   }
 }

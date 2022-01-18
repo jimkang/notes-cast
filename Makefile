@@ -4,8 +4,7 @@ HOMEDIR = $(shell pwd)
 PROJECTNAME = notes-cast
 APPDIR = /opt/$(PROJECTNAME)
 SSHCMD = ssh $(USER)@$(SERVER)
-swcast = node $(APPDIR)/lib/static-web-cast/static-web-cast.js
-# node_modules/.bin/swcast
+swcast = node $(APPDIR)/node_modules/.bin/swcast
 
 sync:
 	rsync -a $(HOMEDIR) $(USER)@$(SERVER):/opt/ --exclude node_modules/
